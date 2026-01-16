@@ -14,11 +14,7 @@ while player != computer:
     elif player < computer:
         print('Number is too low')
     
-    elif len(guesses) >= 5:
-        print("You have reached your limit for guesses!")
-        break
-
-    
+        
     player = int(input("enter a number between 1 -  50: "))
     guesses.append(player)
     if player == computer:
